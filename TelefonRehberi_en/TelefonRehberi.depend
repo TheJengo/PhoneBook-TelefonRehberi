@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1495455865 source:d:\jengo\projects\c\telefonrehberi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<string.h>
+
+1498247137 source:c:\users\user\desktop\git\telefonrehberi_en\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<string.h>
+
