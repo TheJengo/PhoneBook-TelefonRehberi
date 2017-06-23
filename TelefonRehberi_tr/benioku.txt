@@ -1,0 +1,38 @@
+/* Telefon Rehberi */
+Bir menüsü olan, 6 bölüm ve Çýkýþ kýsmý bulunduran bir telefon rehberini menü baþlýklarýna göre programlayýnýz.
+
+/* Menu */
+
+1. Kiþi Ekle
+2. Telefonlarý Listele
+3. Kaydý Düzenle
+4. Numara ile Kayýt Bul
+5. Isim ile Kayýt Bul
+6. Kayýt Sil
+0. Çýkýþ
+
+
+/* Dosya iþlemleri Ýçin Ýpuçlarý */
+
+Bu programda dosya iþlemleri için 2 yol kullanabilirsiniz bunlar:
+1. Yol:
+	fprintf ve fscanf fonksiyonlarýný kullanýn ve dosyanýz insanlar tarafýndan okunabilsin.
+
+2. Yol:
+	fread-fseek-fwrite fonksiyonlarýný kullanýn programýnýz birinci yola göre daha hýzlý ve kolay çalýþsýn
+	ama dosyanýn içinde yazanlarý anlamaya çalýþmayýn.
+
+	Çünkü bu üç fonksiyonu kullandýðýnýz da, bu fonksiyonlarýn farklý bir çalýþma stili olduðundan 
+	(özellikle fwrite) dosyanýzda bazý anlamsýz gözüken sembollerle karþýlaþabilirsiniz. 
+	
+	Ama merak etmeyin çalýþacaktýr.
+
+3. Yol: Ya da hepsini karýþtýrýn, kafanýza göre :D
+
+/* Kýsýtlamalar Ýle Ýlgili Ýpuçlarý */
+
+Telefon Rehberiniz dolduðunda, týpký kiþi ekle kýsmýnda gördüðünüz gibi kýsýtlanmasýný istediðiniz diðer bölgelere de kýsýtlamalar koyabilirsiniz.
+MAX deðiþkeniyle de kolayca rehberinizin boyutunu büyütüp, küçültebilirsiniz.
+	Örneðin:
+	int MAX = 100; // Normal Deðeri
+	int MAX = 50;  // Yeni Deðeri

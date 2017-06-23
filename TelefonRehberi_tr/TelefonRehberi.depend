@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1495455865 source:d:\jengo\projects\c\telefonrehberi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<conio.h>
+	<string.h>
+
